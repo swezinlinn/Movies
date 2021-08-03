@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.databinding:databinding-common:7.0.0-alpha03">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.0.0-alpha03/dd6d3007c35c7739d4eff0b6e86510d9ebef5085/databinding-common-7.0.0-alpha03.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.0.0-alpha03/a13f80b96a5007ef83fb63a46767a0da18f69f7d/databinding-common-7.0.0-alpha03-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/7.0.0-alpha03/e3e48f83e8f28091d4d8511ea80fedf284d39511/databinding-common-7.0.0-alpha03-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
