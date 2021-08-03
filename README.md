@@ -2,7 +2,7 @@
 A simple android app that shows movie list with search function which fetch movie list from api or db.
 
 ### Implemented by Clean Architecture
-The following diagram shows the structure of this project with 4 layers:
+The structure of this project with 4 layers:
 - Ui
 - Presentation
 - Domain
