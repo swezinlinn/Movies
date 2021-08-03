@@ -1,5 +1,6 @@
 package com.android.movies.presentation.adapter
 
+import android.content.Context
 import android.graphics.drawable.Drawable
 import android.view.LayoutInflater
 import android.view.View
@@ -16,9 +17,14 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestListener
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.Target
+import kotlin.math.roundToInt
 
 
-internal class MovieItemAdapter(private val listener: OnItemClickListener, private val drawable : Int) :
+internal class MovieItemAdapter(
+    private val listener: OnItemClickListener,
+    private val drawable: Int,
+    private val requireContext: Context
+) :
     PagingDataAdapter<MovieList, MovieItemAdapter.MovieViewHolder>(MOVIE_COMPARATOR) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): MovieViewHolder {
@@ -40,6 +46,9 @@ internal class MovieItemAdapter(private val listener: OnItemClickListener, priva
         RecyclerView.ViewHolder(binding.root) {
 
         init {
+            val scale = requireContext.resources.displayMetrics.density
+            binding.card.layoutParams.width = ((190 * scale + 0.5f).roundToInt())
+
             binding.root.setOnClickListener {
                 val position = bindingAdapterPosition
                 if (position != RecyclerView.NO_POSITION) {

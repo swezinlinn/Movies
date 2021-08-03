@@ -34,7 +34,7 @@ class MovieListFragment : Fragment(R.layout.fragment_movie_list), MovieItemAdapt
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        val adapter = MovieItemAdapter(this,R.drawable.ic_place_holder)
+        val adapter = MovieItemAdapter(this,R.drawable.ic_place_holder,requireContext())
 
         _binding = FragmentMovieListBinding.bind(view)
         binding.apply {
