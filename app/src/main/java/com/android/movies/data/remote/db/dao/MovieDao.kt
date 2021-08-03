@@ -10,7 +10,7 @@ interface MovieDao {
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertAll(movie: List<MovieEntity>)
 
-    @Query("Select * from Movie Where title = :title")
+    @Query("Select * from Movie Where INSTR(title, :title) > 0")
     suspend fun getSearchedMovieList(title: String): List<MovieEntity>
 
 
