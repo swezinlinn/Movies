@@ -117,7 +117,7 @@ class NetworkModule {
 
 
     @Provides
-    internal fun providePhotoDao(appDatabase: AppDatabase): MovieDao {
+    internal fun provideMovieDao(appDatabase: AppDatabase): MovieDao {
         return appDatabase.movieDao
     }
 
