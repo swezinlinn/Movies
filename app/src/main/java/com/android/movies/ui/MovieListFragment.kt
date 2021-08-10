@@ -66,10 +66,10 @@ class MovieListFragment : Fragment(R.layout.fragment_movie_list), MovieItemAdapt
                     loadState.append.endOfPaginationReached &&
                     adapter.itemCount < 1
                 ) {
-                    movieRecyclerView.isVisible = false
-                    textViewError.isVisible = true
+                    movieRecyclerView.visibility = View.GONE
+                    textViewError.visibility = View.VISIBLE
                 } else {
-                    textViewError.isVisible = false
+                    textViewError.visibility = View.GONE
                 }
             }
         }

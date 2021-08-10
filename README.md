@@ -17,6 +17,15 @@ The structure of this project with 4 layers:
 </p>
 <br>
 
+### MovieListFlow
+<br>
+<p>
+  <img src="https://github.com/swezinlinn/Movies/blob/main/ss1.jpg" width="200"/>
+
+  <img src="https://github.com/swezinlinn/Movies/blob/main/ss2.jpg" width="200"/>
+</p>
+<br>
+
 ### Movie Detail Screen
 <br>
 <p>
