@@ -20,7 +20,7 @@ The structure of this project with 4 layers:
 ### Movie List Flow
 <br>
 <p>
-  <img src="https://github.com/swezinlinn/Movies/blob/main/MovieList.jpg" width="700"/>
+  <img src="https://github.com/swezinlinn/Movies/blob/main/MovieList.jpg"/>
 </p>
 <br>
 
@@ -36,7 +36,7 @@ The structure of this project with 4 layers:
 ### Movie Detail Flow
 <br>
 <p>
-  <img src="https://github.com/swezinlinn/Movies/blob/main/MovieDetail.jpg" width="700"/>
+  <img src="https://github.com/swezinlinn/Movies/blob/main/MovieDetail.jpg"/>
 </p>
 <br>
 
